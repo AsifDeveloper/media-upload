@@ -1,0 +1,120 @@
+{
+  "_args": [
+    [
+      "ngx-uploadx@git+https://github.com/AsifDeveloper/ngx-uploadx.git#fa6184f73778aaf97c7d6213c931407dcc27de18",
+      "/var/www/html/gudsho-project/gudsho-studio"
+    ]
+  ],
+  "_from": "ngx-uploadx@git+https://github.com/AsifDeveloper/ngx-uploadx.git#fa6184f73778aaf97c7d6213c931407dcc27de18",
+  "_id": "ngx-uploadx@3.3.4",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/ngx-uploadx",
+  "_phantomChildren": {
+    "tslib": "1.10.0"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "ngx-uploadx@git+https://github.com/AsifDeveloper/ngx-uploadx.git#fa6184f73778aaf97c7d6213c931407dcc27de18",
+    "name": "ngx-uploadx",
+    "escapedName": "ngx-uploadx",
+    "rawSpec": "git+https://github.com/AsifDeveloper/ngx-uploadx.git#fa6184f73778aaf97c7d6213c931407dcc27de18",
+    "saveSpec": "git+https://github.com/AsifDeveloper/ngx-uploadx.git#fa6184f73778aaf97c7d6213c931407dcc27de18",
+    "fetchSpec": "https://github.com/AsifDeveloper/ngx-uploadx.git",
+    "gitCommittish": "fa6184f73778aaf97c7d6213c931407dcc27de18"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/AsifDeveloper/ngx-uploadx.git#fa6184f73778aaf97c7d6213c931407dcc27de18",
+  "_spec": "git+https://github.com/AsifDeveloper/ngx-uploadx.git#fa6184f73778aaf97c7d6213c931407dcc27de18",
+  "_where": "/var/www/html/gudsho-project/gudsho-studio",
+  "author": {
+    "name": "kukhariev",
+    "email": "q_h@inbox.ru"
+  },
+  "bugs": {
+    "url": "https://github.com/kukhariev/ngx-uploadx/issues"
+  },
+  "dependencies": {
+    "@angular/common": "7.2.16",
+    "@angular/compiler": "7.2.16",
+    "@angular/core": "7.2.16",
+    "@angular/forms": "7.2.16",
+    "@angular/platform-browser": "7.2.16",
+    "@angular/platform-browser-dynamic": "7.2.16",
+    "@angular/router": "7.2.16",
+    "core-js": "2.6.11",
+    "rxjs": "6.5.3",
+    "zone.js": "0.10.3"
+  },
+  "description": "Angular Resumable Upload Module",
+  "devDependencies": {
+    "@angular-devkit/build-angular": "0.13.9",
+    "@angular/cli": "7.3.9",
+    "@angular/compiler-cli": "7.2.16",
+    "@angular/language-service": "7.2.16",
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/config-conventional": "8.3.4",
+    "@commitlint/travis-cli": "8.3.5",
+    "@types/jasmine": "3.5.9",
+    "@types/jasminewd2": "2.0.8",
+    "@types/node": "10.17.17",
+    "codelyzer": "5.2.1",
+    "husky": "4.2.3",
+    "jasmine-core": "3.5.0",
+    "jasmine-spec-reporter": "4.2.1",
+    "karma": "4.4.1",
+    "karma-chrome-launcher": "2.2.0",
+    "karma-coverage-istanbul-reporter": "2.1.1",
+    "karma-jasmine": "3.1.1",
+    "karma-jasmine-html-reporter": "1.5.2",
+    "lint-staged": "10.0.8",
+    "ng-packagr": "5.7.1",
+    "node-uploadx": "4.1.2",
+    "prettier": "1.19.1",
+    "protractor": "5.4.3",
+    "rimraf": "^3.0.1",
+    "ts-node": "8.8.1",
+    "tsickle": "0.38.1",
+    "tslib": "~1.9.0",
+    "tslint": "5.20.1",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-plugin-prettier": "2.2.0",
+    "typescript": "3.2.4"
+  },
+  "engines": {
+    "node": ">=10.10.0"
+  },
+  "homepage": "https://github.com/kukhariev/ngx-uploadx#readme",
+  "keywords": [
+    "angular",
+    "upload",
+    "chunk",
+    "resumable",
+    "tus"
+  ],
+  "license": "MIT",
+  "name": "ngx-uploadx",
+  "peerDependencies": {
+    "@angular/core": ">=6.0.0 <10.0.0",
+    "rxjs": "^6.0.0"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kukhariev/ngx-uploadx.git"
+  },
+  "scripts": {
+    "build": "ts-node --skip-project ./scripts/build.ts",
+    "ci": "npm run lint && npm run test && npm run e2e",
+    "e2e": "ng e2e",
+    "lint": "ng lint",
+    "prettier": "prettier --write \"**/*.{js,json,scss,md,ts,html}\"",
+    "server": "node ./server/ --debug",
+    "server:dev": "node ./server/ --errors --debug",
+    "start": "ng serve",
+    "test": "ng test --watch=false --progress=false --browsers=ChromeHeadless"
+  },
+  "version": "3.3.4"
+}
